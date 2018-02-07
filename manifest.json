@@ -1,0 +1,14 @@
+{
+	"manifest_version": 2,
+	"name": "CSDN_AutoReadMore",
+	"version": "1.0",
+	
+	"description": "Auto read more article in CSDN blog.",
+	
+	"content_scripts": [
+		{
+			"matches": ["*://blog.csdn.net/*"],
+			"js": ["AutoReadMore.js"]
+		}
+	]
+}
